@@ -36,7 +36,7 @@ function runMode5(isFullRender) {
   // --- INPUTS ---
   let speedVal = 17;
   let scaleVal = 60;
-  let tagText = "Cosmos Tag";
+  let tagText = "Tag";
   
   let speedSlider = document.getElementById('m5SpeedSlider');
   if(speedSlider) speedVal = parseInt(speedSlider.value);
@@ -45,7 +45,7 @@ function runMode5(isFullRender) {
   if(scaleSlider) scaleVal = parseInt(scaleSlider.value);
   
   let textInput = document.getElementById('m5TextInput');
-  if(textInput) tagText = textInput.value || "Cosmos Tag";
+  if(textInput) tagText = textInput.value || "Tag";
 
   // --- SETUP CANVAS ---
   target.background('#F7F5F3');
