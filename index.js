@@ -5,7 +5,7 @@
 let currentMode = 0; // 0 = GRID VIEW
 let canvas;
 let uploadedImages = [];
-let userNames = ["@cosmos", "@design", "@motion"];
+let userNames = ["@interaction", "@design", "@motion"];
 let recorder;
 let isRecording = false;
 
